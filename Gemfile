@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem'fog'
 gem "figaro", ">= 1.0.0"
 gem 'carrierwave'
 gem 'devise', '>= 3.2.4'
