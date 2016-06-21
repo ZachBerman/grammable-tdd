@@ -3,6 +3,17 @@ body {
   font-family: 'Sriracha', cursive;
 }
 
+.brand {
+  color: #5C5E5E;
+  font-size:35px;
+  font-family: 'Sriracha', cursive;
+}
+
+.brand a {
+    text-decoration: none;
+    color: #09B4ED;
+}
+
 .top-nav {
   background-color: white;
   border-bottom-color: #edeeee;
@@ -10,12 +21,6 @@ body {
   border-bottom-style: solid;
   height: 70px;
   padding-top: 15px;
-}
-
-.brand {
-  color: #5C5E5E;
-  font-size: 30px;
-  font-family: 'Sriracha', cursive;
 }
 
 .top-nav .add a {
@@ -32,10 +37,10 @@ body {
 .card {
   background-color: #fff;
   border-radius: .25rem;
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #e8e8e8;
   margin-top: 40px;
-  padding: 0;
+  padding: 20px;
 }
 
 .handle {
@@ -95,10 +100,15 @@ input {
 .comment {
   font-size: 16px;
   margin-top: 5px;
+  background: #C5D2D6;
 }
 
 .comment_handle {
   color: #125688;
   font-weight: bold;
   font-size: 18px;
+}
+
+.alerts {
+  color: red;
 }
